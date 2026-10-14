@@ -1,0 +1,62 @@
+# Environment & Secrets
+.env
+.env.local
+*.json
+service_account.json
+client_secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project output
+output/
+examples/
+test_output*/
+*.mp4
+*.mp3
+*.jpg
+*.png
+
+# Logs
+*.log
+
+# Temp files
+.agents/
+*.tmp
+temp/
